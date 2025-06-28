@@ -1,0 +1,133 @@
+/* General Layout */
+body {
+    background-color: #f5fdf6;
+    color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2f4f4f;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar span {
+    font-size: 32px;
+    font-weight: bold;
+    color: #aef4b0;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .links a {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #dfffe1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .links a:hover {
+    background-color: #7fffd4;
+    color: #2f4f4f;
+}
+
+/* Button */
+.btn {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #3a9140;
+}
+
+/* File Input */
+input[type="file"] {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Image Preview */
+.image-preview {
+    margin: 30px auto;
+    max-width: 250px;
+    border: 2px dashed #4CAF50;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f0fff4;
+}
+
+/* Prediction Box */
+.prediction-box {
+    background-color: #e3ffe3;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 128, 0, 0.2);
+    font-size: 18px;
+    color: #155724;
+    font-weight: bold;
+}
+
+/* Image Row */
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.images img {
+    height: 160px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+/* About Page */
+.about-card {
+    background: #defde0;
+    color: #2f4f2f;
+    padding: 40px;
+    margin: 60px auto;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0 0 25px rgba(40, 167, 69, 0.2);
+    line-height: 1.7;
+    text-align: left;
+}
+
+.about-card h2 {
+    color: #388e3c;
+    margin-bottom: 20px;
+}
