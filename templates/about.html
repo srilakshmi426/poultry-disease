@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><About Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="about">
+    <div class="navbar">
+        <span>PoultryDetect</span>
+        <div class="links">
+            <a href="/">Home</a>
+            <a href="/predict">Prediction Page</a>
+            <a href="/about">About</a>
+        </div>
+    </div>
+
+    <div class="about-card">
+        <h2 style="text-align: center;">About This Project</h2>
+        <p>
+            This AI-based poultry disease detection system uses a deep learning model that is used
+            to classify images of chicken droppings into four categories: Coccidiosis, Newcastle Disease,
+            Salmonella, and Healthy. The project aims to assist farmers with quick, on-the-spot diagnosis
+            using image input. It helps reduce the economic impact of delayed treatment and improves
+            poultry health management efficiency. The model was trained using transfer learning with
+            over so many images and tested for reliable accuracy. This web interface is user-friendly and mobile-accessible.
+        </p>
+    </div>
+</body>
+</html>
